@@ -21,6 +21,3 @@ REST API test framework applying Page Object Model thinking to the HTTP layer �
 
 **TypeDojo**  
 Terminal-based TypeScript training tool — 150+ challenges across 18 topics, from language fundamentals to advanced type patterns, with AI-assisted code review built in.
-
-**TypeDojo**  
-Terminal-based TypeScript training tool — 129 challenges across 18 topics, from language fundamentals to advanced type patterns, with AI-assisted code review built in.
