@@ -4,20 +4,26 @@ I build test automation platforms that engineering teams actually depend on — 
 
 7+ years across FinTech, banking SaaS, and telecom. I own the test automation architecture on the primary Playwright/TypeScript squad at a risk-management platform serving Tier-1 banks, and give senior support to a second squad's Java/Selenium stack.
 
+**Stack:** Playwright · TypeScript · Cucumber/BDD · Java/Selenium · Pact · Zod · Allure · GitHub Actions · Azure DevOps
+
+⟨Based in Antalya, Türkiye · open to SDET / QA automation roles in the EU⟩
+
 ---
+
 **Public repositories here are portfolio work** — production experience lives in private company repos. These projects are built from scratch against public demo apps, with no company code or data, to make architecture decisions, tooling choices, and code quality visible.
 
 ---
-#### Repositories
 
-**defect-bridge**  
+### Repositories
+
+**[Playwright-cucumber-ai-framework](https://github.com/KKoygun/Playwright-cucumber-ai-framework)**
+Playwright + TypeScript + Cucumber BDD with three AI agents (Healer, Planner, Generator) behind a provider-agnostic adapter — Groq, Gemini, Claude, OpenAI, or a local Ollama model so page data stays on your network. The Healer can retry a broken selector in the same run and logs every attempt; a replayable eval measures it (Groq gpt-oss-120b healed 9/9 broken selectors). Accessibility scans with axe-core; CI on GitHub Actions and Azure Pipelines.
+
+**[playwright-api-framework](https://github.com/KKoygun/playwright-api-framework)**
+REST API test framework applying Page Object Model thinking to the HTTP layer — typed client classes, Zod response validation, and Pact consumer-driven contract tests with provider verification. Allure report published to GitHub Pages: [latest report](https://kkoygun.github.io/playwright-api-framework/).
+
+**[defect-bridge](https://github.com/KKoygun/defect-bridge)**
 Pipes Allure test failure results into linked Jira defects automatically after every CI run — structured comments, screenshots attached, zero manual defect reporting. A standalone, framework-agnostic tool, built from scratch to demonstrate the pattern.
 
-**Playwright-cucumber-ai-framework**  
-Playwright + TypeScript + Cucumber BDD with three AI agents (Healer, Planner, Generator) on a provider-agnostic adapter — swap Groq, Gemini, Claude, or OpenAI by changing one line. Parallel CI on GitHub Actions.
-
-**playwright-api-framework**  
-REST API test framework applying Page Object Model thinking to the HTTP layer — typed client classes, Zod schema validation for contract testing, fixture injection, Allure reporting, parallel CI.
-
-**TypeDojo**  
+**[TypeDojo](https://github.com/KKoygun/TypeDojo)**
 Terminal-based TypeScript training tool — 150+ challenges across 18 topics, from language fundamentals to advanced type patterns, with AI-assisted code review built in.
