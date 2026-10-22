@@ -6,7 +6,7 @@ I build test automation platforms that engineering teams actually depend on — 
 
 **Stack:** Playwright · TypeScript · Cucumber/BDD · Java/Selenium · Pact · Zod · Allure · GitHub Actions · Azure DevOps
 
-⟨Based in Antalya, Türkiye · open to SDET / QA automation roles in the EU⟩
+Based in Antalya, Türkiye. Open to remote or hybrid SDET / QA automation roles in the EU.
 
 ---
 
