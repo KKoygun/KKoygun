@@ -23,7 +23,7 @@ Playwright + TypeScript + Cucumber BDD with three AI agents (Healer, Planner, Ge
 REST API test framework applying Page Object Model thinking to the HTTP layer — typed client classes, Zod response validation, and Pact consumer-driven contract tests with provider verification. Allure report published to GitHub Pages: [latest report](https://kkoygun.github.io/playwright-api-framework/).
 
 **[defect-bridge](https://github.com/KKoygun/defect-bridge)**
-Pipes Allure test failure results into linked Jira defects automatically after every CI run — structured comments, screenshots attached, zero manual defect reporting. A standalone, framework-agnostic tool, built from scratch to demonstrate the pattern.
+Keeps Jira and GitHub defects in step with Allure results after every CI run — failure comments with screenshots, regressions flagged when a closed ticket's test fails again, a "passing again" note when a fix lands, and Allure categories that separate known defects from new failures. Jira Cloud (checked against a live site), Data Center and GitHub Issues; runs as a CLI or GitHub Action. Showcase report on GitHub Pages: [latest report](https://kkoygun.github.io/defect-bridge/).
 
 **[TypeDojo](https://github.com/KKoygun/TypeDojo)**
 Terminal-based TypeScript training tool — 150+ challenges across 18 topics, from language fundamentals to advanced type patterns, with AI-assisted code review built in.
