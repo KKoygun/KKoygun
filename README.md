@@ -17,13 +17,13 @@ Based in Antalya, Türkiye. Open to remote or hybrid SDET / QA automation roles 
 ### Repositories
 
 **[Playwright-cucumber-ai-framework](https://github.com/KKoygun/Playwright-cucumber-ai-framework)**
-Playwright + TypeScript + Cucumber BDD with three AI agents (Healer, Planner, Generator) behind a provider-agnostic adapter — Groq, Gemini, Claude, OpenAI, or a local Ollama model so page data stays on your network. The Healer can retry a broken selector in the same run and logs every attempt; a replayable eval measures it (Groq gpt-oss-120b healed 9/9 broken selectors). Accessibility scans with axe-core; CI on GitHub Actions and Azure Pipelines.
+Playwright + TypeScript + Cucumber BDD with three AI agents (Healer, Planner, Generator) behind a provider-agnostic adapter that supports Groq, Gemini, Claude, OpenAI, or a local Ollama model so page data stays on your network. Groq is verified live and the others are mock-tested. The Healer can retry a broken selector in the same run and logs every attempt; a replayable eval measures it (Groq gpt-oss-120b healed 9/9 broken selectors). Accessibility scans with axe-core; CI on GitHub Actions and Azure Pipelines.
 
 **[playwright-api-framework](https://github.com/KKoygun/playwright-api-framework)**
-REST API test framework applying Page Object Model thinking to the HTTP layer — typed client classes, Zod response validation, and Pact consumer-driven contract tests with provider verification. Allure report published to GitHub Pages: [latest report](https://kkoygun.github.io/playwright-api-framework/).
+REST API test framework applying Page Object Model thinking to the HTTP layer — typed client classes, Zod response validation, and Pact consumer-driven contract tests verified against a provider stub. Allure report published to GitHub Pages: [latest report](https://kkoygun.github.io/playwright-api-framework/).
 
 **[defect-bridge](https://github.com/KKoygun/defect-bridge)**
-Keeps Jira and GitHub defects in step with Allure results after every CI run — failure comments with screenshots, regressions flagged when a closed ticket's test fails again, a "passing again" note when a fix lands, and Allure categories that separate known defects from new failures. Jira Cloud (checked against a live site), Data Center and GitHub Issues; runs as a CLI or GitHub Action. Showcase report on GitHub Pages: [latest report](https://kkoygun.github.io/defect-bridge/).
+Shows in the Allure report whether a failing test is already tracked in Jira. After every CI run it posts the failure details with screenshots to the linked ticket, flags a regression when a closed ticket's test fails again, adds a "passing again" note when a fix lands, and groups failures in the Allure Categories tab as regression, known defect, or new failure. Jira Cloud (checked against a live site), Data Center and GitHub Issues; runs as a CLI or GitHub Action. Showcase report on GitHub Pages: [latest report](https://kkoygun.github.io/defect-bridge/).
 
 **[TypeDojo](https://github.com/KKoygun/TypeDojo)**
-Terminal-based TypeScript training tool — 150+ challenges across 18 topics, from language fundamentals to advanced type patterns, with AI-assisted code review built in.
+Terminal-based TypeScript training tool — 154 challenges across 19 topics, from language fundamentals to advanced type patterns, with AI-assisted code review built in.
