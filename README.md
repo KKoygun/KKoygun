@@ -26,4 +26,4 @@ REST API test framework applying Page Object Model thinking to the HTTP layer �
 Shows in the Allure report whether a failing test is already tracked in Jira. After every CI run it posts the failure details with screenshots to the linked ticket, flags a regression when a closed ticket's test fails again, adds a "passing again" note when a fix lands, and groups failures in the Allure Categories tab as regression, known defect, or new failure. Jira Cloud (checked against a live site), Data Center and GitHub Issues; runs as a CLI or GitHub Action. Showcase report on GitHub Pages: [latest report](https://kkoygun.github.io/defect-bridge/).
 
 **[TypeDojo](https://github.com/KKoygun/TypeDojo)**
-Terminal-based TypeScript training tool — 154 challenges across 19 topics, from language fundamentals to advanced type patterns, with AI-assisted code review built in.
+Terminal-based TypeScript training tool — 154 challenges across 19 topics, 52 validated in CI against reference solutions. Optional AI code review through Groq, Gemini, Claude, OpenAI or a local Ollama model, measured with a recorded eval.
