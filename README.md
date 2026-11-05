@@ -27,3 +27,10 @@ Shows in the Allure report whether a failing test is already tracked in Jira. Af
 
 **[TypeDojo](https://github.com/KKoygun/TypeDojo)**
 Terminal-based TypeScript training tool — 154 challenges across 19 topics, 52 validated in CI against reference solutions. Optional AI code review through Groq, Gemini, Claude, OpenAI or a local Ollama model, measured with a recorded eval.
+
+**[packet-broker-qa-lab](https://github.com/KKoygun/packet-broker-qa-lab)**
+A tiny software packet broker and the pytest, scapy and Robot Framework suite that tests it. Covers Ethernet, VLAN, GRE and VXLAN, pcap validation and Linux network namespaces. [Latest report](https://kkoygun.github.io/packet-broker-qa-lab/).
+
+### University project (2019)
+
+**Alagadi Turtle** is a team IoT prototype for real-time water-quality monitoring, built at Cyprus International University. I built and tested the physical device, a floating unit built around an Arduino Mega 2560 with GSM and Wi-Fi modules. It measured water pH, oxidation-reduction potential (ORP), turbidity (how cloudy the water is, in NTU) and water temperature, plus air temperature and humidity. Its pH and turbidity readings were checked against laboratory measurements of the same pond water. Emre Tüfekçi built the messaging side and Ercan Havare the web map. The project won first place at the TÜBİTAK regional final in the Energy and Environment category.
