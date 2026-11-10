@@ -6,6 +6,8 @@ I build test automation platforms that engineering teams actually depend on — 
 
 **Stack:** Playwright · TypeScript · Cucumber/BDD · Java/Selenium · Pact · Zod · Allure · GitHub Actions · Azure DevOps
 
+**Certifications:** ISTQB CT-GenAI (2026) · ISTQB CTFL (2022)
+
 Based in Antalya, Türkiye. Open to remote or hybrid SDET / QA automation roles in the EU.
 
 ---
