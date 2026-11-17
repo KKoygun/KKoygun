@@ -4,7 +4,7 @@ I build test automation platforms that engineering teams actually depend on — 
 
 7+ years across FinTech, banking SaaS, and telecom. I own the test automation architecture on the primary Playwright/TypeScript squad at a risk-management platform serving Tier-1 banks, and give senior support to a second squad's Java/Selenium stack.
 
-**Stack:** Playwright · TypeScript · Cucumber/BDD · Java/Selenium · Pact · Zod · Allure · GitHub Actions · Azure DevOps
+**Stack:** Playwright · TypeScript · Cucumber/BDD · Java/Selenium · Pact · Zod · Allure · MCP · RAG · GitHub Actions · Azure DevOps
 
 **Certifications:** ISTQB CT-GenAI (2026) · ISTQB CTFL (2022)
 
@@ -17,6 +17,9 @@ Based in Antalya, Türkiye. Open to remote or hybrid SDET / QA automation roles 
 ---
 
 ### Repositories
+
+**[jira-rag-mcp](https://github.com/KKoygun/jira-rag-mcp)**
+MCP server that gives AI assistants QA context: Jira stories through MCP tools, and hybrid RAG search (BM25 plus local embeddings) over test cases and past defects, to find which acceptance criteria of a story are not tested yet. Retrieval is measured on a labelled question set in CI (recall@5 91%, MRR 0.88), and the server was tested end to end in Claude Code against a live Jira Cloud project.
 
 **[Playwright-cucumber-ai-framework](https://github.com/KKoygun/Playwright-cucumber-ai-framework)**
 Playwright + TypeScript + Cucumber BDD with three AI agents (Healer, Planner, Generator) behind a provider-agnostic adapter that supports Groq, Gemini, Claude, OpenAI, or a local Ollama model so page data stays on your network. Groq is verified live and the others are mock-tested. The Healer can retry a broken selector in the same run and logs every attempt; a replayable eval measures it (Groq gpt-oss-120b healed 9/9 broken selectors). Accessibility scans with axe-core; CI on GitHub Actions and Azure Pipelines.
